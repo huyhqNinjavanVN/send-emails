@@ -9,10 +9,6 @@ import os
 import json
 from jinja2 import Template
 
-'''
-    https://myaccount.google.com/apppasswords
-    https://mailtrap.io/blog/python-send-email-gmail/
-'''
 
 def send_email(subject, body, attachment, account, password, sender_alias, email_alias, recipients):
     # Choose multipart/alternative.
