@@ -4,9 +4,9 @@ This repository demonstrates how to use different modules in Python to construct
 
 
 # Requirements
-    - `smtplib`
-    - `email` module.
-    - `Jinja2`
+- `smtplib`
+- `email` module.
+- `Jinja2`
 <br>
 
 # Usage
@@ -26,7 +26,7 @@ This repository demonstrates how to use different modules in Python to construct
 
 2.  Create `conf.json` file in `./conf` directory. Template:
 	 
-    ```
+    ```json
     {
 	    "account": {
 	        "email": "example.user@example.com",          	// Your email address
