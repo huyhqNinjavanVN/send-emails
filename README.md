@@ -48,4 +48,4 @@ This repository demonstrates how to use different modules in Python to construct
     ```
 <br>
 
-3. Launch `./src./main`
+3. Launch `./src./main.py`
