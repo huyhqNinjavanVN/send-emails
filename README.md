@@ -21,7 +21,7 @@ This repository demonstrates how to use different modules in Python to construct
     {
 	    "account": {
 	        "email": "example.user@example.com",          	// Your email address
-	        "key": "abcd efgh 1234 5678"                 	// App Password (You copied it in step 1)
+	        "key": "abcd efgh xxxx xxxx"                 	// App Password (You copied it in step 1)
 	    },
 	    "receiver": [
 	        "example.user1@example.com",                 	// First recipient's email address
@@ -32,9 +32,9 @@ This repository demonstrates how to use different modules in Python to construct
 	    "email_alias": "noreply@example.com",            	// Alias email for the sender (displayed in the recipient's inbox)
 	    "subject": "Automated Email Notification",       	// Email subject line
 	    "template": "template.html",                     	// HTML file email template (see ./templates/)
-	    "user_name": "John Doe (Team A)",                	// Display name of the sender
-	    "attachment": "document.pdf",                    	// The file to be attached (see ./attachment/)
-	    "attachment_alias": "attachment.pdf"             	// Display name of the attachment
+	    "user_name": "Nguyen Van A",                	// Display name of the sender
+	    "attachment": "file_1.txt",                    	// The file to be attached (see ./attachment/)
+	    "attachment_alias": "attachment.txt"             	// Display name of the attachment
 	}
 
 3. Launch `./src./main`
