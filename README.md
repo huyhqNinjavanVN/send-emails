@@ -4,20 +4,29 @@ This repository demonstrates how to use different modules in Python to construct
 
 
 # Requirements
- - `smtplib`
- - `email` module.
- - `Jinja2`
+    - `smtplib`
+    - `email` module.
+    - `Jinja2`
+<br>
 
 # Usage
 
- 1. **App Passwords**: For accounts with two-factor authentication (2FA), you'll need to generate an app-specific password.
-		 1.1. Go to [App Passwords](https://myaccount.google.com/apppasswords).
-		 1.2. Signing in to Google.
-		 1.3. Type your application name (E.g.: send-emails-app).	
-		 1.4. Click on **Create**.
-		 1.5. **Copy the generated password**.
- 2.  Create `conf.json` file in `./conf` directory. Template:
+1. **App Passwords**: For accounts with two-factor authentication (2FA), you'll need to generate an app-specific password.
+
+	1.1. Go to [App Passwords](https://myaccount.google.com/apppasswords).
+
+	1.2. Signing in to Google.
+
+	1.3. Type your application name (E.g.: send-emails-app).	
+
+	1.4. Click on **Create**.
+
+	1.5. **Copy the generated password**.
+<br>
+
+2.  Create `conf.json` file in `./conf` directory. Template:
 	 
+    ```
     {
 	    "account": {
 	        "email": "example.user@example.com",          	// Your email address
@@ -36,5 +45,7 @@ This repository demonstrates how to use different modules in Python to construct
 	    "attachment": "file_1.txt",                    	// The file to be attached (see ./attachment/)
 	    "attachment_alias": "attachment.txt"             	// Display name of the attachment
 	}
+    ```
+<br>
 
 3. Launch `./src./main`
